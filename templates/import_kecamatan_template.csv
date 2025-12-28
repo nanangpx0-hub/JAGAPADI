@@ -1,0 +1,14 @@
+# Deskripsi Kolom,Tipe Data,Contoh Nilai,Wajib (Y/N)
+id_kabupaten,string,"35.01",Y
+nama_kabupaten,string,"Kabupaten Pacitan",Y
+id_kecamatan,string,"35.01.01",Y
+nama_kecamatan,string,"Kecamatan Pacitan",Y
+tanggal_update,date,"2023-01-15",Y
+jumlah_penduduk,number,50000,N
+luas_wilayah,number,120.5,N
+ibukota_kecamatan,string,"Pacitan",N
+
+id_kabupaten,nama_kabupaten,id_kecamatan,nama_kecamatan,tanggal_update,jumlah_penduduk,luas_wilayah,ibukota_kecamatan
+"35.01","Kabupaten Pacitan","35.01.01","Kecamatan Pacitan","2023-01-15",50000,120.5,"Pacitan"
+"35.01","Kabupaten Pacitan","35.01.02","Kecamatan Kebonagung","2023-01-15",45000,85.3,"Kebonagung"
+"35.02","Kabupaten Ponorogo","35.02.01","Kecamatan Slahung","2023-01-15",,,NULL

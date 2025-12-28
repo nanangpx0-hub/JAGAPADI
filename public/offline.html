@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Offline - JAGAPADI</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .offline-container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 400px;
+        }
+        
+        .offline-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+        
+        .offline-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .offline-message {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+        
+        .retry-button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .retry-button:hover {
+            background: white;
+            color: #28a745;
+            transform: translateY(-2px);
+        }
+        
+        .offline-tips {
+            margin-top: 2rem;
+            font-size: 0.875rem;
+            opacity: 0.8;
+        }
+        
+        .offline-tips ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .offline-tips li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .offline-tips li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+        
+        @media (max-width: 480px) {
+            .offline-container {
+                padding: 1rem;
+            }
+            
+            .offline-icon {
+                font-size: 3rem;
+            }
+            
+            .offline-title {
+                font-size: 1.25rem;
+            }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; }
+            100% { opacity: 0.8; }
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-container">
+        <div class="offline-icon pulse">📡</div>
+        <h1 class="offline-title">Tidak Ada Koneksi Internet</h1>
+        <p class="offline-message">
+            Maaf, Anda sedang offline. JAGAPADI memerlukan koneksi internet untuk berfungsi dengan baik.
+        </p>
+        
+        <button class="retry-button" onclick="window.location.reload()">
+            🔄 Coba Lagi
+        </button>
+        
+        <div class="offline-tips">
+            <p><strong>Tips:</strong></p>
+            <ul>
+                <li>Periksa koneksi WiFi atau data seluler Anda</li>
+                <li>Pastikan sinyal internet stabil</li>
+                <li>Coba refresh halaman setelah koneksi kembali</li>
+                <li>Beberapa fitur mungkin tersedia secara offline</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Auto-retry when connection is restored
+        window.addEventListener('online', function() {
+            setTimeout(() => {
+                window.location.reload();
+            }, 1000);
+        });
+        
+        // Show connection status
+        function updateConnectionStatus() {
+            if (navigator.onLine) {
+                document.querySelector('.offline-message').innerHTML = 
+                    '🟢 Koneksi kembali! Halaman akan dimuat ulang...';
+                setTimeout(() => {
+                    window.location.reload();
+                }, 2000);
+            }
+        }
+        
+        // Check connection status periodically
+        setInterval(updateConnectionStatus, 3000);
+        
+        // Service worker registration check
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.ready.then(registration => {
+                console.log('Service Worker ready for offline page');
+            });
+        }
+    </script>
+</body>
+</html>

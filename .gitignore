@@ -1,0 +1,12 @@
+/config/config.php
+/config/database.php
+/logs/*.log
+/storage/logs/*.log
+/public/uploads/*
+!/public/uploads/.gitkeep
+/vendor/
+.vscode/
+*.bak
+*.tmp
+node_modules/
+.env

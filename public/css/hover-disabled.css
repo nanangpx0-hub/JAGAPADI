@@ -1,0 +1,190 @@
+/* CSS untuk Menonaktifkan Semua Efek Hover di Halaman Laporan */
+/* File: public/css/hover-disabled.css */
+
+/* Nonaktifkan hover pada filter status buttons */
+.btn-filter:hover:not(.active) {
+    /* Semua efek hover dinonaktifkan */
+    background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%) !important;
+    box-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.1),
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+    color: #495057 !important;
+    transform: translateY(0) !important;
+}
+
+/* Nonaktifkan hover pada action buttons */
+.btn-action:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    background-color: inherit !important;
+}
+
+.btn-action-info:hover {
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+}
+
+.btn-action-success:hover {
+    background-color: #28a745 !important;
+    color: #fff !important;
+}
+
+.btn-action-warning:hover {
+    background-color: #ffc107 !important;
+    color: #212529 !important;
+}
+
+.btn-action-danger:hover {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+/* Nonaktifkan hover pada table rows */
+tbody tr:hover {
+    background-color: inherit !important;
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada rejected report rows */
+.rejected-report-row:hover {
+    background-color: #f8d7da !important;
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada photo thumbnails */
+.photo-thumbnail:hover {
+    border-color: #dee2e6 !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada photo preview close button */
+.photo-preview-close:hover {
+    color: #fff !important;
+}
+
+/* Nonaktifkan hover pada master checkbox */
+#checkAll:hover {
+    border-color: #6c757d !important;
+    box-shadow: none !important;
+}
+
+/* Nonaktifkan hover pada child checkboxes */
+.checkbox-item:hover {
+    cursor: pointer !important;
+}
+
+/* Nonaktifkan hover pada tombol bulk delete */
+#btnBulkDelete:hover {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada tombol buat laporan baru */
+#btnCreateLaporan:hover {
+    text-decoration: none !important;
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada link aksi */
+.btn-action-view:hover,
+.btn-action-edit:hover,
+.btn-action-delete:hover {
+    text-decoration: none !important;
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada badge status */
+.badge:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada alert info petugas */
+.alert-info:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada rejected reports alert */
+.alert-warning:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada card header */
+.card-header:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada card body */
+.card-body:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada card tools */
+.card-tools:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada table responsive */
+.table-responsive:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada table head */
+thead:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada table body */
+tbody:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada table footer */
+tfoot:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada table cells */
+td:hover,
+th:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada button group */
+.btn-group-status:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada button group items */
+.btn-group-status .btn-filter:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada rejected actions */
+.rejected-actions:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada rejected actions mobile */
+.rejected-actions-mobile:hover {
+    transform: none !important;
+}
+
+/* Nonaktifkan hover pada tooltip */
+.btn-action::after:hover {
+    opacity: 1 !important;
+}
+
+/* Nonaktifkan hover pada focus states */
+*:focus:hover {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Nonaktifkan hover pada semua elemen secara umum */
+*:hover {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+}

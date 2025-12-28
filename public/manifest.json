@@ -1,0 +1,117 @@
+{
+  "name": "JAGAPADI - Sistem Pelaporan Hama & Penyakit",
+  "short_name": "JAGAPADI",
+  "description": "Aplikasi pelaporan dan monitoring hama & penyakit tanaman padi untuk BPS Kabupaten Jember",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#28a745",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities", "government"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iIzI4YTc0NSIvPgo8cGF0aCBkPSJNMTIgMTZIMzZWMzJIMTJWMTZaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTYgMjBIMzJWMjhIMTZWMjBaIiBmaWxsPSIjMjhhNzQ1Ii8+CjxjaXJjbGUgY3g9IjI0IiBjeT0iMjQiIHI9IjIiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiByeD0iMTIiIGZpbGw9IiMyOGE3NDUiLz4KPHBhdGggZD0iTTE4IDI0SDU0VjQ4SDE4VjI0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI0IDMwSDQ4VjQySDI0VjMwWiIgZmlsbD0iIzI4YTc0NSIvPgo8Y2lyY2xlIGN4PSIzNiIgY3k9IjM2IiByPSIzIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMyOGE3NDUiLz4KPHBhdGggZD0iTTI0IDMySDcyVjY0SDI0VjMyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTMyIDQwSDY0VjU2SDMyVjQwWiIgZmlsbD0iIzI4YTc0NSIvPgo8Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjE0NCIgdmlld0JveD0iMCAwIDE0NCAxNDQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNDQiIGhlaWdodD0iMTQ0IiByeD0iMjQiIGZpbGw9IiMyOGE3NDUiLz4KPHBhdGggZD0iTTM2IDQ4SDEwOFY5NkgzNlY0OFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik00OCA2MEg5NlY4NEg0OFY2MFoiIGZpbGw9IiMyOGE3NDUiLz4KPGNpcmNsZSBjeD0iNzIiIGN5PSI3MiIgcj0iNiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+      "sizes": "144x144",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMzIiIGZpbGw9IiMyOGE3NDUiLz4KPHBhdGggZD0iTTQ4IDY0SDE0NFYxMjhINDhWNjRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjQgODBIMTI4VjExMkg2NFY4MFoiIGZpbGw9IiMyOGE3NDUiLz4KPGNpcmNsZSBjeD0iOTYiIGN5PSI5NiIgcj0iOCIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMyOGE3NDUiLz4KPHBhdGggZD0iTTEyOCAxNjBIMzg0VjM1MkgxMjhWMTYwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE2MCAyMDhIMzUyVjMwNEgxNjBWMjA4WiIgZmlsbD0iIzI4YTc0NSIvPgo8Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzc1IiBoZWlnaHQ9IjY2NyIgdmlld0JveD0iMCAwIDM3NSA2NjciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzNzUiIGhlaWdodD0iNjY3IiBmaWxsPSIjZjhmOWZhIi8+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIzNzUiIGhlaWdodD0iNjAiIGZpbGw9IiMyOGE3NDUiLz4KPHRleHQgeD0iMTg3LjUiIHk9IjM1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SkFHQVBBREk8L3RleHQ+CjxyZWN0IHg9IjIwIiB5PSI4MCIgd2lkdGg9IjMzNSIgaGVpZ2h0PSI1NjciIHJ4PSI4IiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjZGVlMmU2Ii8+Cjx0ZXh0IHg9IjE4Ny41IiB5PSIxMjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzQ5NTA1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkRhZnRhciBMYXBvcmFuPC90ZXh0Pgo8L3N2Zz4K",
+      "sizes": "375x667",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "JAGAPADI Mobile View"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzY4IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCA3NjggMTAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijc2OCIgaGVpZ2h0PSIxMDI0IiBmaWxsPSIjZjhmOWZhIi8+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI3NjgiIGhlaWdodD0iNjAiIGZpbGw9IiMyOGE3NDUiLz4KPHRleHQgeD0iMzg0IiB5PSIzNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkpBR0FQQURJIC0gVGFibGV0IFZpZXc8L3RleHQ+CjxyZWN0IHg9IjQwIiB5PSIxMDAiIHdpZHRoPSI2ODgiIGhlaWdodD0iODg0IiByeD0iMTIiIGZpbGw9IndoaXRlIiBzdHJva2U9IiNkZWUyZTYiLz4KPHRleHQgeD0iMzg0IiB5PSIxNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iIzQ5NTA1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkRhc2hib2FyZCAmIExhcG9yYW48L3RleHQ+Cjwvc3ZnPgo=",
+      "sizes": "768x1024",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "JAGAPADI Tablet View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buat Laporan Baru",
+      "short_name": "Laporan Baru",
+      "description": "Buat laporan hama/penyakit baru",
+      "url": "/laporan/create",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMyOGE3NDUiLz4KPHBhdGggZD0iTTQ4IDMyVjY0IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMzIgNDhINjQiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Daftar Laporan",
+      "short_name": "Laporan",
+      "description": "Lihat semua laporan hama/penyakit",
+      "url": "/laporan",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMyOGE3NDUiLz4KPHJlY3QgeD0iMjQiIHk9IjI0IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMzIgMzZINjQiIHN0cm9rZT0iIzI4YTc0NSIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxwYXRoIGQ9Ik0zMiA0OEg2NCIgc3Ryb2tlPSIjMjhhNzQ1IiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTMyIDYwSDU2IiBzdHJva2U9IiMyOGE3NDUiIHN0cm9rZS13aWR0aD0iMiIvPgo8L3N2Zz4K",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Lihat statistik dan grafik",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMyOGE3NDUiLz4KPHJlY3QgeD0iMjQiIHk9IjQ4IiB3aWR0aD0iMTIiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIi8+CjxyZWN0IHg9IjQyIiB5PSIzNiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjM2IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI2MCIgeT0iMjQiIHdpZHRoPSIxMiIgaGVpZ2h0PSI0OCIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

@@ -1,0 +1,15 @@
+Full sync executed at: 2025-11-24 20:25:33
+connectivity=ok
+kab_pre_total=38
+master_pre_total=34
+kab_sync_inserted=38
+kab_sync_updated=0
+mfd_processed=7228
+mfd_success=7152
+mfd_failed=76
+post_kab_total=72
+post_kec_total=595
+post_desa_total=7173
+orphans_kec=0
+orphans_desa=0
+elapsed=7.822s

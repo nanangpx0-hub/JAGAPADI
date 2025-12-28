@@ -1,0 +1,101 @@
+nama_pelapor,kecamatan,desa,latitude,longitude,jenis_hama,tanggal_pelaporan,tingkat_kerusakan,foto_bukti,status_penanganan
+"Ahmad Setiawan",Ajung,Ajung,-8.21045,113.68512,Wereng,2025-11-10 09:12:34,sedang,images/dummy/hama_001.jpg,dalam proses
+"Siti Aisyah",Ajung,Klompangan,-8.19873,113.71234,Tikus,2025-10-28 14:22:11,ringan,images/dummy/hama_002.jpg,belum ditangani
+"Budi Santoso",Ajung,Rowoindah,-8.22561,113.67219,Ulat Grayak,2025-09-17 07:45:03,berat,images/dummy/hama_003.jpg,selesai
+"Dewi Lestari",Ambulu,Ambulu,-8.37912,113.59541,Keong Mas,2025-11-12 16:31:55,sedang,images/dummy/hama_004.jpg,dalam proses
+"Rizki Maulana",Ambulu,Sumberejo,-8.36578,113.62345,Wereng,2025-10-05 10:05:27,ringan,images/dummy/hama_005.jpg,belum ditangani
+"Nisa Rahma",Ambulu,Pontang,-8.38845,113.60673,Penggerek Batang,2025-08-21 08:49:39,berat,images/dummy/hama_006.jpg,selesai
+"Galih Pratama",Arjasa,Arjasa,-8.08234,113.80512,Blas Padi,2025-09-29 12:41:16,sedang,images/dummy/hama_007.jpg,dalam proses
+"Lina Marlina",Arjasa,Biting,-8.09671,113.79354,Wereng,2025-07-04 15:12:02,ringan,images/dummy/hama_008.jpg,belum ditangani
+"Andi Saputra",Arjasa,Kamal,-8.07429,113.82845,Ulat Grayak,2025-06-18 09:08:47,berat,images/dummy/hama_009.jpg,selesai
+"Rina Kurnia",Balung,Balung Kidul,-8.31074,113.65127,Tikus,2025-11-03 11:22:18,sedang,images/dummy/hama_010.jpg,dalam proses
+"Bayu Nugroho",Balung,Balung Kulon,-8.29863,113.64793,Wereng,2025-10-14 13:47:31,ringan,images/dummy/hama_011.jpg,belum ditangani
+"Fitri Handayani",Balung,Balung Lor,-8.28751,113.65984,Penggerek Batang,2025-07-26 08:15:40,berat,images/dummy/hama_012.jpg,selesai
+"Slamet Riyadi",Bangsalsari,Bangsalsari,-8.20893,113.53671,Wereng,2025-11-06 10:34:22,sedang,images/dummy/hama_013.jpg,dalam proses
+"Yuni Dwi",Bangsalsari,Gambirono,-8.22235,113.52384,Blas Padi,2025-09-08 07:59:58,ringan,images/dummy/hama_014.jpg,belum ditangani
+"Fajar Ramadhan",Bangsalsari,Tisnogambar,-8.19674,113.54812,Ulat Grayak,2025-06-25 16:05:19,berat,images/dummy/hama_015.jpg,selesai
+"Teguh Widodo",Gumukmas,Gumukmas,-8.26417,113.61128,Tikus,2025-10-19 09:41:36,sedang,images/dummy/hama_016.jpg,dalam proses
+"Sari Puspita",Gumukmas,Bagorejo,-8.25359,113.62873,Wereng,2025-08-30 11:57:44,ringan,images/dummy/hama_017.jpg,belum ditangani
+"Dimas Akbar",Gumukmas,Mayangan,-8.27532,113.60219,Penggerek Batang,2025-07-11 07:22:12,berat,images/dummy/hama_018.jpg,selesai
+"Nurul Hidayah",Jelbuk,Jelbuk,-8.09812,113.70345,Keong Mas,2025-11-14 15:44:10,sedang,images/dummy/hama_019.jpg,dalam proses
+"Rudi Hartono",Jelbuk,Panduman,-8.11047,113.71683,Wereng,2025-10-02 08:19:27,ringan,images/dummy/hama_020.jpg,belum ditangani
+"Rina Agustina",Jelbuk,Sukowiryo,-8.08593,113.69121,Ulat Grayak,2025-06-29 10:52:33,berat,images/dummy/hama_021.jpg,selesai
+"Yusuf Alamsyah",Jenggawah,Jenggawah,-8.24795,113.67641,Blas Padi,2025-09-21 14:31:05,sedang,images/dummy/hama_022.jpg,dalam proses
+"Mega Safitri",Jenggawah,Cangkring,-8.23472,113.68954,Tikus,2025-08-10 09:10:12,ringan,images/dummy/hama_023.jpg,belum ditangani
+"Hendra Putra",Jenggawah,Sruni,-8.26138,113.66487,Wereng,2025-07-18 16:28:44,berat,images/dummy/hama_024.jpg,selesai
+"Siti Nurjanah",Jombang,Jombang,-8.33152,113.47816,Keong Mas,2025-11-01 08:45:56,sedang,images/dummy/hama_025.jpg,dalam proses
+"Agus Salim",Jombang,Padomasan,-8.34561,113.49127,Wereng,2025-10-07 13:09:13,ringan,images/dummy/hama_026.jpg,belum ditangani
+"Rosa Manik",Jombang,Wringinagung,-8.31847,113.46652,Ulat Grayak,2025-08-02 07:33:27,berat,images/dummy/hama_027.jpg,selesai
+"Eko Cahyono",Kalisat,Kalisat,-8.14753,113.91624,Penggerek Batang,2025-09-25 12:05:42,sedang,images/dummy/hama_028.jpg,dalam proses
+"Tiara Nabila",Kalisat,Glagahwero,-8.13628,113.90415,Tikus,2025-07-08 10:17:05,ringan,images/dummy/hama_029.jpg,belum ditangani
+"Rio Saputra",Kalisat,Sumberkalong,-8.15984,113.92837,Wereng,2025-06-20 08:58:49,berat,images/dummy/hama_030.jpg,selesai
+"Putri Amelia",Kaliwates,Jember Kidul,-8.18152,113.66876,Ulat Grayak,2025-11-15 09:29:41,sedang,images/dummy/hama_031.jpg,dalam proses
+"Rama Dwi",Kaliwates,Kaliwates,-8.17364,113.67652,Keong Mas,2025-10-11 16:13:37,ringan,images/dummy/hama_032.jpg,belum ditangani
+"Indah Pertiwi",Kencong,Kencong,-8.23984,113.43152,Wereng,2025-09-04 07:11:29,berat,images/dummy/hama_033.jpg,selesai
+"Fikri Maulana",Kencong,Cakru,-8.25216,113.44478,Blas Padi,2025-11-09 10:56:05,sedang,images/dummy/hama_034.jpg,dalam proses
+"Maya Sari",Kencong,Paseban,-8.22841,113.42063,Tikus,2025-08-18 14:40:22,ringan,images/dummy/hama_035.jpg,belum ditangani
+"Agung Prasetyo",Ledokombo,Ledokombo,-8.08471,113.86439,Wereng,2025-10-22 13:21:44,berat,images/dummy/hama_036.jpg,selesai
+"Nabila Karimah",Ledokombo,Sumberlesung,-8.07258,113.85275,Ulat Grayak,2025-07-30 09:38:26,sedang,images/dummy/hama_037.jpg,dalam proses
+"Rafli Ananda",Ledokombo,Sumbersalak,-8.09637,113.87852,Penggerek Batang,2025-06-16 08:12:33,ringan,images/dummy/hama_038.jpg,belum ditangani
+"Salsa Putri",Mayang,Mayang,-8.19642,113.79761,Wereng,2025-11-07 11:47:13,berat,images/dummy/hama_039.jpg,selesai
+"Ahmad Fauzi",Mayang,Mrawan,-8.18397,113.78324,Blas Padi,2025-09-14 07:23:19,sedang,images/dummy/hama_040.jpg,dalam proses
+"Novi Laili",Mayang,Tegalrejo,-8.21053,113.81246,Tikus,2025-08-27 10:31:52,ringan,images/dummy/hama_041.jpg,belum ditangani
+"Toni Kurniawan",Mumbulsari,Mumbulsari,-8.30146,113.70025,Ulat Grayak,2025-10-01 12:42:18,sedang,images/dummy/hama_042.jpg,dalam proses
+"Desi Ayu",Mumbulsari,Lampeji,-8.31582,113.71364,Wereng,2025-07-21 09:06:41,ringan,images/dummy/hama_043.jpg,belum ditangani
+"Rendy Firmansyah",Mumbulsari,Kawangrejo,-8.28957,113.68749,Penggerek Batang,2025-06-23 08:27:55,berat,images/dummy/hama_044.jpg,selesai
+"Yulia Safira",Pakusari,Pakusari,-8.17062,113.73941,Keong Mas,2025-11-13 15:19:26,sedang,images/dummy/hama_045.jpg,dalam proses
+"Firdaus Hakim",Pakusari,Sumberpinang,-8.15874,113.72518,Wereng,2025-09-10 07:35:49,ringan,images/dummy/hama_046.jpg,belum ditangani
+"Hani Wulandari",Pakusari,Bedadung,-8.18291,113.75263,Ulat Grayak,2025-08-06 10:12:07,berat,images/dummy/hama_047.jpg,selesai
+"Arif Budiman",Panti,Panti,-8.20037,113.62148,Tikus,2025-10-24 13:54:33,sedang,images/dummy/hama_048.jpg,dalam proses
+"Salsa Anindya",Panti,Kemiri,-8.18824,113.60917,Wereng,2025-07-06 08:40:16,ringan,images/dummy/hama_049.jpg,belum ditangani
+"Fauzan Malik",Panti,Suci,-8.21358,113.63652,Blas Padi,2025-06-19 10:23:41,berat,images/dummy/hama_050.jpg,selesai
+"Hendra Kurnia",Patrang,Patrang,-8.16347,113.68723,Penggerek Batang,2025-11-02 11:12:57,sedang,images/dummy/hama_051.jpg,dalam proses
+"Nadia Putri",Patrang,Jemberlor,-8.15489,113.69435,Wereng,2025-08-12 09:55:13,ringan,images/dummy/hama_052.jpg,belum ditangani
+"Yoga Pramana",Puger,Puger Kulon,-8.40821,113.49873,Ulat Grayak,2025-09-30 12:29:31,berat,images/dummy/hama_053.jpg,selesai
+"Citra Mawar",Puger,Puger Wetan,-8.39564,113.51284,Keong Mas,2025-11-08 16:02:46,sedang,images/dummy/hama_054.jpg,dalam proses
+"Ikhsan Arief",Puger,Kasiyan,-8.42015,113.48627,Wereng,2025-07-13 08:18:22,ringan,images/dummy/hama_055.jpg,belum ditangani
+"Dwi Lestari",Rambipuji,Rambipuji,-8.24027,113.55741,Tikus,2025-10-09 10:11:54,berat,images/dummy/hama_056.jpg,selesai
+"Farhan Aditya",Rambipuji,Pecoro,-8.22783,113.54462,Wereng,2025-09-12 07:26:35,sedang,images/dummy/hama_057.jpg,dalam proses
+"Alya Nurfadila",Rambipuji,Kaliwining,-8.25291,113.56988,Blas Padi,2025-08-01 11:37:09,ringan,images/dummy/hama_058.jpg,belum ditangani
+"Wahyu Hidayat",Semboro,Semboro,-8.21947,113.50028,Ulat Grayak,2025-11-04 09:43:20,sedang,images/dummy/hama_059.jpg,dalam proses
+"Riska Amelia",Semboro,Pondokjoyo,-8.20836,113.51563,Penggerek Batang,2025-07-28 16:21:07,ringan,images/dummy/hama_060.jpg,belum ditangani
+"Iqbal Ramzi",Semboro,Rejoagung,-8.23158,113.48892,Wereng,2025-06-27 08:06:51,berat,images/dummy/hama_061.jpg,selesai
+"Hafiz Alif",Silo,Silo,-8.21085,113.89817,Tikus,2025-10-25 12:09:42,sedang,images/dummy/hama_062.jpg,dalam proses
+"Putri Sekar",Silo,Sempolan,-8.19843,113.88594,Wereng,2025-09-16 09:27:31,ringan,images/dummy/hama_063.jpg,belum ditangani
+"Dian Permata",Silo,Garahan,-8.22374,113.91126,Blas Padi,2025-07-09 08:58:44,berat,images/dummy/hama_064.jpg,selesai
+"Ronaldo Saputro",Sukorambi,Sukorambi,-8.15167,113.64872,Ulat Grayak,2025-11-11 11:25:39,sedang,images/dummy/hama_065.jpg,dalam proses
+"Ayu Kartika",Sukorambi,Jubung,-8.14025,113.63514,Penggerek Batang,2025-08-24 10:14:05,ringan,images/dummy/hama_066.jpg,belum ditangani
+"Dedi Kurnia",Sukorambi,Klungkung,-8.16392,113.66128,Wereng,2025-06-21 07:41:53,berat,images/dummy/hama_067.jpg,selesai
+"Naufal Rizky",Sukowono,Sukowono,-8.02358,113.84217,Keong Mas,2025-09-27 12:33:17,sedang,images/dummy/hama_068.jpg,dalam proses
+"Melati Ayu",Sukowono,Sumberwaru,-8.03641,113.85429,Wereng,2025-07-03 15:06:21,ringan,images/dummy/hama_069.jpg,belum ditangani
+"Rizka Amelia",Sukowono,Balet Baru,-8.01194,113.82976,Ulat Grayak,2025-06-17 08:36:12,berat,images/dummy/hama_070.jpg,selesai
+"Vina Lestari",Sumberbaru,Sumberbaru,-8.18643,113.47015,Tikus,2025-10-16 10:52:28,sedang,images/dummy/hama_071.jpg,dalam proses
+"Randi Maulana",Sumberbaru,Yosorati,-8.17482,113.45637,Wereng,2025-09-06 07:29:33,ringan,images/dummy/hama_072.jpg,belum ditangani
+"Tia Febriana",Sumberbaru,Rowotengah,-8.19975,113.48261,Penggerek Batang,2025-07-20 08:20:41,berat,images/dummy/hama_073.jpg,selesai
+"Hanif Prakoso",Sumberjambe,Sumberjambe,-8.05036,113.91345,Blas Padi,2025-11-05 11:39:08,sedang,images/dummy/hama_074.jpg,dalam proses
+"Salsabila Noor",Sumberjambe,Randuagung,-8.06278,113.92637,Wereng,2025-08-15 13:58:26,ringan,images/dummy/hama_075.jpg,belum ditangani
+"Dika Arya",Sumberjambe,Jambearum,-8.03751,113.90084,Ulat Grayak,2025-06-22 07:55:33,berat,images/dummy/hama_076.jpg,selesai
+"Rika Wulandari",Sumbersari,Sumbersari,-8.16812,113.71285,Keong Mas,2025-10-27 12:47:51,sedang,images/dummy/hama_077.jpg,dalam proses
+"Rama Putra",Sumbersari,Karangrejo,-8.15974,113.72563,Wereng,2025-07-16 09:13:07,ringan,images/dummy/hama_078.jpg,belum ditangani
+"Taufik Hidayat",Tanggul,Tanggul Kulon,-8.14328,113.45126,Tikus,2025-11-16 09:57:44,berat,images/dummy/hama_079.jpg,selesai
+"Silvi Aulia",Tanggul,Tanggul Wetan,-8.13175,113.46358,Wereng,2025-09-19 12:19:22,sedang,images/dummy/hama_080.jpg,dalam proses
+"Iqra Ramadhan",Tanggul,Manggisan,-8.15642,113.43971,Penggerek Batang,2025-08-09 10:03:39,ringan,images/dummy/hama_081.jpg,belum ditangani
+"Dewi Kartika",Tempurejo,Tempurejo,-8.43412,113.80536,Ulat Grayak,2025-10-20 11:05:18,berat,images/dummy/hama_082.jpg,selesai
+"Gilang Seto",Tempurejo,Andongrejo,-8.42083,113.81947,Wereng,2025-09-11 07:44:27,sedang,images/dummy/hama_083.jpg,dalam proses
+"Miko Pratama",Tempurejo,Curahnongko,-8.44571,113.79263,Keong Mas,2025-07-24 16:33:05,ringan,images/dummy/hama_084.jpg,belum ditangani
+"Nanda Syafitri",Umbulsari,Umbulsari,-8.24653,113.48412,Blas Padi,2025-11-13 10:26:31,sedang,images/dummy/hama_085.jpg,dalam proses
+"Arman Setia",Umbulsari,Sidorejo,-8.23469,113.49785,Wereng,2025-08-25 09:18:14,ringan,images/dummy/hama_086.jpg,belum ditangani
+"Sinta Dewi",Umbulsari,Paleran,-8.25932,113.47163,Ulat Grayak,2025-06-26 08:02:47,berat,images/dummy/hama_087.jpg,selesai
+"Yoga Saputra",Wuluhan,Dukuhdempok,-8.34871,113.64028,Penggerek Batang,2025-10-29 12:14:56,sedang,images/dummy/hama_088.jpg,dalam proses
+"Cici Marlina",Wuluhan,Tamansari,-8.33529,113.65371,Wereng,2025-09-03 07:16:22,ringan,images/dummy/hama_089.jpg,belum ditangani
+"Rafika Nur",Wuluhan,Lojejer,-8.36047,113.62694,Tikus,2025-07-12 08:39:35,berat,images/dummy/hama_090.jpg,selesai
+"Anton Supriadi",Kaliwates,Tegal Besar,-8.17628,113.68241,Wereng,2025-06-30 11:28:33,sedang,images/dummy/hama_091.jpg,dalam proses
+"Nabila Zahra",Patrang,Slawu,-8.16894,113.67985,Blas Padi,2025-06-28 10:15:07,ringan,images/dummy/hama_092.jpg,belum ditangani
+"Halimah Salsabila",Sumbersari,Kranjingan,-8.16274,113.70591,Penggerek Batang,2025-06-20 09:33:44,berat,images/dummy/hama_093.jpg,selesai
+"Suharto",Lumajang,Tempursari,-8.37642,113.22218,Wereng,2025-10-06 12:41:33,sedang,images/dummy/hama_094.jpg,dalam proses
+"Aisyah Putri",Lumajang,Pasirian,-8.36015,113.24366,Ulat Grayak,2025-08-14 08:22:11,ringan,images/dummy/hama_095.jpg,belum ditangani
+"Bagus Pranata",Bondowoso,Binakal,-7.93247,113.82461,Tikus,2025-09-23 11:49:55,berat,images/dummy/hama_096.jpg,selesai
+"Maya Rahayu",Banyuwangi,Rogojampi,-8.33872,114.36145,Keong Mas,2025-11-05 15:17:02,sedang,images/dummy/hama_097.jpg,dalam proses
+"Fikri Husein",Probolinggo,Kraksaan,-7.75721,113.23954,Wereng,2025-07-27 09:41:29,ringan,images/dummy/hama_098.jpg,belum ditangani
+"Ratna Sari",Situbondo,Panarukan,-7.70584,113.97218,Blas Padi,2025-06-19 08:09:47,berat,images/dummy/hama_099.jpg,selesai
+"Naufal Pratama",Bondowoso,Taman Krocok,-7.91163,113.85872,Penggerek Batang,2025-10-12 10:28:16,sedang,images/dummy/hama_100.jpg,dalam proses

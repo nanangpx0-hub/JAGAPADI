@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /jagapadi/
+
+# Redirect to index.php if file doesn't exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L,QSA]
+
+# Prevent directory listing
+Options -Indexes
